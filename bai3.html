@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ a trong HTML</title>
+</head>
+
+<body>
+    <h1>Link trong HTML</h1>
+    <h2>Đường dẫn <strong>tương đối</strong> đường dẫn <strong>tuyệt đối</strong> trong html</h2>
+    <h3>Đường dẫn tuyệt đối</h3>
+    <p>đường dẫn tuyệt đối URL đầy đủ đến một tập tin Internet</p>
+    <p>ví dụ</p>
+    "D:\learn_frontend\html\bai2.html"
+    <h3>Đường dẫn tương đối</h3>
+    <p>Đường dẫn tương đối trỏ tới một dường dẫn có liên quan tới trang hiện tại</p>
+    <p>ví dụ</p>
+    "./bai2.html"
+    <h2>Thẻ &lt;a&gt; trong HTML</h2>
+    <h3>tạo liên kết trong html</h3>
+    <p>để tạo một liên kết ta dùng cú pháp sau:</p>
+    &lt;a href="URL" target=""&gt;nội dung đại diện cho liên kết&lt;/a&gt;
+    <ul>
+        <li>URL: là đường dẫn đến trang web</li>
+        <li>
+            target: là kiểu mở liên kết (mặc định kiểu mở liên kết là _self)
+        </li>
+    </ul>
+    <h3>các thuộc tính của thẻ a</h3>
+    <ul>
+        <li>title: dùng để mô tả ý nghĩa của trang web khi bạn hover vào link</li>
+        <li>rel: khai báo cho các công cụ <strong>search engine</strong> có dò đường link này hay không</li>
+        <ul>
+            <li>folow: có dò</li>
+            <li>nofolow: không dò</li>
+        </ul>
+        <li>target: là kiểu mở liên kết (mặc định kiểu mở liên kết là _self)
+            <ul>
+                <li>_blank: mở liên kết trong tab mới</li>
+                <li>_self: mở liên kết trong tab hiện tại</li>
+                <li>_parent: chuyển link tới tab mở tab hiện tại (tab cha của tab hiện tại)</li>
+                <li>_top: chuyển link trên tab hiện tại, thường dùng trong iframe muốn thoát khỏi iframe và chạy tới
+                    trang gốc luôn</li>
+            </ul>
+        </li>
+        <li>download: khi click vao link sẽ tải nội dung của đường link đó về</li>
+    </ul>
+    <h3>Các trạng thái của thẻ a</h3>
+    <ul>
+        <li>link: chưa có hành động nào trên link</li>
+        <li>visited: đã click vào link và đi đến trang đích</li>
+        <li>hover: di chuyển qua link</li>
+        <li>active: link đã được active</li>
+    </ul>
+
+    <p>ví dụ:</p>
+    <!--liên kết bằng đường dẫn tuyệt đối-->
+    <a href="https://www.google.com.vn/" taget="_blank" title="tìm kiếm">search in google</a> <br>
+    <!--liên kết bằng đường dẫn tương đối-->
+    <a href="./bai2.html" title="bảng trong html" taget="_self" rel="nofolow">table in html</a>
+</body>
+</html>
