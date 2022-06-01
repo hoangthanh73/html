@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ table trong HTML</title>
+</head>
+
+<body>
+    <h1>THẺ &lt;table&gt; TRONG HTML</h1>
+    <ul>
+        <li>thẻ table trong html dùng để hiện thị dữ liệu dảng bảng trong trình duyệt.</li>
+        <li>các thuộc tính của thẻ table gồm:</li>
+    </ul>
+    <ol>
+        <li>Border: dùng để khai báo kích thước đường viền của table</li>
+        <li>Cellspacing: khai báo khoảng cách giữa viền trên và viền dưới của đường viền</li>
+        <li>Cellpading: khai báo khoảng cách giữa nội dung với đường viền</li>
+        <li>td: thêm cột</li>
+        <li>tr: thêm hàng</li>
+    </ol>
+    <table border="1" cellspacing="0" cellpading="3">
+        <tr>
+            <td>cột 1 hàng 1</td>
+            <td>cột 2 hàng 1</td>
+            <td>cột 3 hàng 1</td>
+        </tr>
+        <tr>
+            <td>cột 1 hàng 2</td>
+            <td>cột 2 hàng 2</td>
+            <td>cột 3 hàng 2</td>
+        </tr>
+    </table>
+    <h2>colspan và rowspan trong HTML</h2>
+    <h3>Colspan</h3>
+    <p>colspan dùng để ghép các ô trong 1 hàng vói nhau</p>
+    <table border="1" cellspacing="0" cellpading="5">
+        <tr>
+            <td colspan="2">
+                cột 1 + cột 2 hàng 1
+            </td>
+            <td>cột 3 hàng 1</td>
+            <td>cột 4 hàng 1</td>
+        </tr>
+        <tr>
+            <td>cột 1 hàng 2</td>
+            <td>cột 2 hàng 2</td>
+            <td colspan="2">cột 3 + cột 4 hàng 2</td>
+        </tr>
+    </table>
+    <h3>rowspan</h3>
+    <p>rowspan dùng để ghép các ô trong 1 cột với nhau</p>
+    <table border="1" cellspacing="0" cellpading="10">
+        <tr>
+            <td rowspan="2">hàng 1 + <br>hàng 2 cột 1</td>
+            <td rowspan="3">hàng 1 <br>+ hàng 2<br> + hàng 3 cột 2</td>
+            <td>hàng 1 cột 3</td>
+            <td>hàng 1 cột 4</td>
+        </tr>
+        <tr>
+            <td>hàng 2 cột 3</td>
+            <td rowspan="2">hàng 2 +<br>hàng 3 cột 4</td>
+        </tr>
+        <tr>
+            <td>hàng 3 cột 1</td>
+            <td>hàng 3 cột 3</td>
+        </tr>
+    </table>
+    <a href="./bai3.html" title="liên kết trong HTML">liên kết trong html</a>
+</body>
+
+</html>
