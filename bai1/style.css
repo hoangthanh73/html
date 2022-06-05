@@ -1,0 +1,43 @@
+
+#heading{
+    height: 100px;
+}
+#header{
+    border: solid blue 2px;
+    color: red;
+    text-transform: uppercase;
+    margin:auto;
+}
+#logo{
+    background-color: red;
+    float: left;
+    height:100px;
+}
+#menu{
+    background-color:brown;
+    height:50px;
+}
+#main_content{
+    background-color:bisque;
+    height: 500px;
+}
+#footer{
+    background-color: yellow;
+    height: 100px;
+}
+#left_sidebar{
+    background-color: green;
+    float:left;
+    width:200px;
+    height: 500px;
+}
+#right_sidebar{
+    background-color: green;
+    float: right;
+    width:200px;
+    height: 500px;
+}
+#content{
+    margin-left: 200px;
+    margin-right: 200px;
+}

@@ -1,0 +1,25 @@
+div#list_post {
+    border: solid 1px #ddd;
+    width: 600px;
+    margin: 0px auto;
+}
+
+.post {
+    border: solid 1px #ddd;
+    margin: 10px 20px;
+    overflow: hidden;
+}
+
+.post .thumb {
+    float: left;
+}
+.post .thumb img{
+    max-width:100%;
+    display:inherit;
+}
+.post .infor{
+    margin-left: 220px;
+}
+.post .infor h2{
+    margin: 15px 0px 20 px 0px;
+}
