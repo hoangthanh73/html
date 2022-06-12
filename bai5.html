@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dùng CSS trong HTML</title>
+    <style>
+        .test-css {
+            color: red;
+            background-color: blue;
+        }
+
+        #style_css {
+            color: red;
+            background-color: blue;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./styleex.css">
 </head>
+
 <body>
-    
+    <h1>dùng css trong html</h1>
+    <strong>
+        có 3 cách để dử dụng css trong html
+    </strong>
+    <ul>
+        <li>
+            <h2>cách 1:</h2> inline (ta đặt thuộc tính css vào thẻ mở html cần style)
+        </li>
+        <h2>exam: </h2>
+        <h3 style="color:red; background: blue">sử dụng css bằng inline</h3>
+        <li>
+            <h2>cách 2:</h2> internal (ta đặt các thuộc tính định dang bên trong cặp thẻ head)
+        </li>
+        <h2>exam: </h2><h3 class="test-css">sử dụng css bằng internal</h3>
+        <h3 id="style_css">sử dụng css bằng internal</h3>
+        <li>
+            <h2>cách 3:</h2> external (ta đặt các thuộc tính định dạng vào trong tập tin css)
+        </li>
+        <h2>exam:</h2>
+<h3>sử dụng css bằng external</h3>
+    </ul>
 </body>
+
 </html>

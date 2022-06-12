@@ -6,7 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thẻ img trong HTML</title>
+<style>
+    h2.test{
+        color: red;
+        background-color: blue;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .add{
+        color: green;
+    }
+    #menu{
+        color:brown;
+    }
+    [href]{background-color: red;}
+    ol>li{background-color: green;}
+    ol ul{background-color: white;}
+    #menu+p{font-size: 20px;}
+    [title=google-2]{background-color: blueviolet;}
+    [title~=google]{background-color: blueviolet; color: crimson;}
+    [title^=google]{font-size: 50px;}
+    [title|=google]{font-weight: bold;}
+    [title$=1]{}
 
+
+</style>
 </head>
 
 <body>
@@ -14,13 +39,13 @@
     <ol type="1">
         <li>
             <h2>Thẻ img trong HTML là gì?</h2>
-            <p>Thẻ img là viết tắt của Image, dùng để tạo hình ảnh trên các trang web</p>
-            <p>để hiện thị hình ảnh lên website ta dùng cú pháp sau:</p>
+            <p class="add">Thẻ img là viết tắt của Image, dùng để tạo hình ảnh trên các trang web</p>
+            <p id="menu">để hiện thị hình ảnh lên website ta dùng cú pháp sau:</p>
             &lt;img src="link" /&gt;
             <p>trong đó link chính là đường dẫn trỏ đến hình ảnh. Nó phải là link tồn tại trên Internet</p>
         </li>
         <li>
-            <h2>Các thuộc tính của thẻ img trong HTML</h2>
+            <h2 class="test">Các thuộc tính của thẻ img trong HTML</h2>
             <ul>
                 <li>
                     <h3>Thuộc tính src</h3>
@@ -45,6 +70,18 @@
             </ul>
         </li>
     </ol>
+    exam:
+    <a href="google.com.vn" alt="" title="google-1" >tìm kiếm</a>
+    <a href="google.com.vn" alt="" title="google-2" >tìm kiếm</a>
+    <a href="google.com.vn" alt="" title="google-3" >tìm kiếm</a>
+    <a href="google.com.vn" alt="" title="google-4" >tìm kiếm</a>
+    <a href="google.com.vn" alt="" title="google-5" >tìm kiếm</a>
+    <a href="google.com.vn" alt="" title="google-6" >tìm kiếm</a>
+    <a href="google.com.vn" alt="" title="google 7" >tìm kiếm</a>
+    <a href="google.com.vn" alt="" title="google 8" >tìm kiếm</a>
+    <a href="google.com.vn" alt="" title="google 9" >tìm kiếm</a>
+    <a href="google.com.vn" alt="" title="google 10" >tìm kiếm</a>
+
 </body>
 
 </html>

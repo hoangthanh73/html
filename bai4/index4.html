@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo menu một cấp bằng HTML đơn giản</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>
+            Tạo menu một cấp bằng HTML đơn giản
+        </h1>
+    </div>
+    <div id="content">
+        <div id="intro">
+            <h2>intro</h2>
+            <p>
+                Menu một cấp là menu không có menu con nên thiết kế khá đơn giản.
+            </p>
+            <p>
+                Để tạo menu 1 cấp thì có rất nhiều giải pháp:
+            <ul>
+                <li>
+                    Sử dụng thẻ ul và li để bao quanh cho các phần tử menu.
+                </li>
+                <li>
+                    Tạo một thẻ div, bên trong nó là các phần tử menu.
+                </li>
+            </ul>
+            <p class="italic">chú ý: menu sẽ là các link nên chúng ta phải dùng thẻ a để gắn link cho mỗi phần tử.</p>
+            <strong>
+                Kết quả của bài này sẽ có giao diện như sau:
+            </strong>
+        </div>
+        <div class="thumb">
+            <img src="./img4/img1.jpg" alt="đây là ảnh minh họa" title="ảnh minh họa">
+        </div>
+        <div id="method">
+            <h2>phương pháp</h2>
+            <ol>
+                <li>
+                    <h3>Sử dụng thẻ div bao quanh các phần tử menu.</h3>
+                </li>
+                <div class="menu">
+                    <a href="">Trang Chủ</a>
+                    <a href="">Học PHP</a>
+                    <a href="">Học HTML</a>
+                    <a href="">Học CSS</a>
+                    <a href="">Học Javascript</a>
+                </div>
+                <li>
+                    <h3>Chọn thẻ UL và LI để xây dụng menu 1 cấp</h3>
+                </li>
+                <div class="menu1">
+                    <ul>
+                        <li><a href="">Trang Chủ</a></li>
+                        <li><a href="">Học PHP</a></li>
+                        <li><a href="">Học HTML</a></li>
+                        <li><a href="">Học CSS</a></li>
+                        <li><a href="">Học Javascript</a></li>
+                    </ul>
+                </div>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>
