@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form trong HTML</title>
+    <link rel="stylesheet" href="./style5.css">
+</head>
+
+<body>
+    <h1 id="header">các thẻ tạo form thu thập dữ liệu</h1>
+    <form action="">
+        <div id="text_form">
+            <label for="first_name" id="usename" class="text-form">
+                Use name:
+                <input type="usename" placeholder="first name" id="first_name">
+                <input type="usename" placeholder="surname">
+            </label>
+            <br>
+            <label for="email">Email:
+                <input type="email" placeholder="email address" id="email">
+            </label>
+            <br>
+            <label for="phone_number">Phone Number:
+                <input type="phone" placeholder="0123456789" id="phone_number">
+            </label>
+            <br>
+            <label for="password">New password:
+                <input type="password" placeholder="new password" id="password">
+            </label>
+            <br>
+            <label for="date_of_birth">Date of birth:
+                <input type="date" value="2000-01-01">
+            </label>
+            <br>
+        </div>
+        <label for="color">Color:
+            <input type="color" id="color">
+        </label>
+        <br>
+        <label for="">Gender:
+            <input type="radio" id="gender" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Custom
+        </label>
+        <br>
+        <label for="">Favorite sport: <br>
+            <input type="checkbox">football <br>
+            <input type="checkbox">volleyball <br>
+            <input type="checkbox">boxing <br>
+            <input type="checkbox">moaythai <br>
+            <input type="checkbox">swim <br>
+            <input type="checkbox">tennis <br>
+            <input type="checkbox">gym <br>
+            <input type="checkbox">yoga <br>
+            <input type="checkbox">custom <br>
+        </label>
+        <label for="">
+            <input type="submit" value="login">
+            <input type="button" value="button">
+            <input type="reset" value="reset">
+        </label>
+    </form>
+</body>
+
+</html>
