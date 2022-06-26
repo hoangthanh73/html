@@ -1,0 +1,44 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-size: 100%;
+    list-style: none;
+    font-family: "Ek Mukta";
+}
+#wraper{
+    max-width: 900px;
+    height:auto;
+}
+#main_menu{
+    display: flex;
+    padding:0px 20px;
+    background-color: green;
+}
+#main_menu>li{
+    position: relative;
+    padding:10px 20px;
+}
+
+li>a{
+    text-decoration: none;
+    color:white;;
+    font-size:25px;
+}
+.sub_menu{
+    position:absolute;
+    margin:10px -10px
+}
+.sub_menu>li{
+    padding: 10px 10px;
+    background-color: green;
+}
+.sub_menu{
+    display:none;
+}
+a:hover{
+    color:orange;
+}
+
+li:hover .sub_menu{
+    display:block;
+}
