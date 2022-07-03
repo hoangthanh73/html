@@ -17,7 +17,6 @@ body {
     background-color: #444;
     color: #fff;
     padding: 15px;
-    display: grid;
 }
 
 .top_menu {
@@ -55,9 +54,9 @@ body {
 }
 
 .clear_fix::after {
-    content: "";
-    clear: both;
-    display: table;
+   clear:both;
+   content:"";
+   display:block;
 }
 
 .side_menu {
