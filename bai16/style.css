@@ -1,0 +1,24 @@
+/*dùng id selector*/
+#wraper{
+    background-color: green;
+}
+/* dùng class selector  */
+.header{
+    color:aqua;
+}
+/* dùng thẻ html selector */
+/* các selector phân cấp cha con */
+#wraper li{
+    color:white;
+}
+/* con trực tiếp sử dụng dấu >*/
+.text>li{
+    background-color: blue;
+}
+.text1>p::first-letter{
+    color:red;
+}
+.text1 p::before{
+    content:"trước"
+}
+.text1 p::

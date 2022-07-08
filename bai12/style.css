@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    width:700px;
+}
+
+#ask p{
+    padding:10px;
+    font-style:italic;
+    color:blue;
+    float:left;
+}
+#ask img{
+    border :solid 1px
+}
+.container{
+    border:solid 1px green;
+}
+.container_logo{
+    width:160px;
+    height:40px;
+    background-color: rgb(127, 127, 210);
+    display:inline-block;
+    margin-top:10px;
+}
+.container_logo strong{
+    color: white;
+    font-size:20px;
+    font-weight: 100;
+    display:inline-block;
+    margin-top:8px;
+}
+.container_content h1{
+    margin: 15px 15px;
+    font-size: 40px;
+    font-weight: 300;
+}
+.container_content strong{
+    color:rgba(0, 30, 255, 0.625);
+}
+.container_link{
+    display:inline-block;
+    margin:30px 30px;
+    padding:10px;
+}
+.container_link a{
+    color:white;
+    text-decoration: none;
+    padding:20px;
+    background-color: black;
+    border-radius: 5%;
+}
+a:hover{
+    background-color:blue;
+}

@@ -1,0 +1,18 @@
+#content>div{
+    background-image: url(./image/img1.jpg);
+       
+        background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    color:rgb(180, 48, 48);
+}
+#retro{
+    color:rgb(0, 0, 255);
+}
+#content h1{
+    color:darkorange;
+    text-align:center;
+}
+body{
+    background-color:rgb(80, 61, 65);
+}
