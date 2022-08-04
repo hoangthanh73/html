@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+h1{
+    padding:10px;
+    text-align:center;
+    background-color: rgb(57, 143, 143);
+    color:white;
+}
+h2{
+    color:blue;
+    margin-top:20px;
+}
+.content p{
+    padding:10px;
+}
+.pic{
+    width:500px;
+    text-align:center;
+    margin:auto;
+}
+.pic span{
+    font-style: italic;
+}
+.search_wiki{
+    float:right;
+}
+.search_wiki a{
+    background-color: blue;
+    color:white;
+    text-decoration:none;
+    padding:8px;
+}
+a:hover{
+    background-color: red;
+    color:blue;
+}
+a:visited{
+    background-color: green;
+}
+a:link{
+    background-color:chocolate;
+}
+a:active{
+    background-color: brown;
+}

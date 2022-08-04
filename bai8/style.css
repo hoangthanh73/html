@@ -1,0 +1,36 @@
+#header h1{
+    color: green;
+    text-align:center;
+}
+#header h2{
+    color: blue;
+    text-decoration: underline;
+}
+#header p{
+    font-weight: bold;
+}
+#content{
+    text-align:center;
+}
+#content h1{
+    text-transform: uppercase;
+    color:#ff3399;
+    background-color:#fecffd;
+}
+#content div{
+    background-color:#f5f5c0;
+    display:block;
+    font-style: italic;
+}
+hr{
+    width: 30%;
+}
+#p1{
+    color:blue;
+}
+#p2{
+    color:red;
+}
+#p3{
+    color:green;
+}

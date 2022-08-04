@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+body{
+    font-family: Helvetica, sans-serif;
+}
+.wraper {
+    margin: 20px auto;
+    background: url(./image/nui-phu-si-nhat-ban-2.jpg.crdownload) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.wraper ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+
+.wraper li p {
+    text-align: center;
+}
+.wraper .icon{
+    margin-bottom: 14px;
+}
+.wraper .icon span{
+    font-size: 45px;
+}
+
+.wraper .number {
+    font-size: 43px;
+    margin-bottom: 10px;
+}

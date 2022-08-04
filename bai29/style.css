@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 100%;
+    margin: 20px 15px;
+    line-height: 1.8;
+    max-width: 770px;
+}
+
+.half-size input[type="text"],
+.half-size input[type="email"],
+.full-size input[type="text"],
+.full-size textarea,
+.submit button {
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px #ddd inset;
+}
+
+.contact-form h2 {
+    font-size: 1.5em;
+    margin: 30px auto;
+    font-weight: 600;
+}
+
+
+.half-size {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.half-size input {
+    width: 48%;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.contact-form .full-size input,
+.contact-form .full-size textarea {
+    display: block;
+}
+.full-size input{
+    height: 40px;
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.full-size textarea{
+    width: 100%;
+    height: 280px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.submit{
+    display: flex;
+    justify-content: space-between;
+}
+.submit button{
+    color:#fff;
+    border: 1px solid #59a8d5;
+    background-color: #7dcefd;
+    padding: 11px 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s background-color;
+}
+.submit button:hover{
+    background-color: #59a8d5;
+}

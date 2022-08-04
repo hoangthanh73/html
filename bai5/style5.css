@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    background: yellow;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+input[type="usename"]{
+    width:40%;
+    display: inline;
+}
+#text_form {
+    color: red;
+
+}
+.text-form{
+    width: 100%;
+}
