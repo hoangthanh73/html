@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+body{
+    color:#343434;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+.wraper {
+    width: 1140px;
+    margin: 30px auto;
+}
+
+.wraper h2 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+.wraper :after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.left-mail {
+    padding: 54px 54px 22px;
+    width: 300px;
+    box-shadow: 0 0 20px 1px #ddd;
+    color: #676767;
+    float: left;
+}
+
+.left-mail h3 {
+    font-size: 21px;
+    line-height: 1.65;
+    margin-bottom: 20px;
+}
+.left-mail p{
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
+.left-mail p:nth-child(3) {
+    margin-bottom: 0px;
+}
+
+.left-mail p:last-child {
+    color: #2b538a;
+    font-size: 13px;
+    font-style: normal;
+}
+
+.right-content {
+    float: right;
+    width: 656px;
+}
+.right-content p{
+    margin-bottom: 30px;
+}

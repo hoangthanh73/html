@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    line-height: 1.8;
+    color: #9a9a9a;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+}
+
+.contact {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    color: #222;
+    font-size: 29px;
+    margin-bottom: 42px;
+    font-weight: 500;
+    position: relative;
+}
+
+.contact h2:after {
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    content: "";
+    display: block;
+    background-color: #ffb737;
+    left: 0;
+    bottom: -5px;
+}
+
+.wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wraper .left-info {
+    width: 380px;
+}
+
+.wraper .right-form {
+    width: 750px;
+}
+
+.wraper h3 {
+    color: #222;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 32px;
+}
+
+.wraper .left-info ul li {
+    line-height: 1.4;
+    margin-bottom: 36px;
+    padding-left: 48px;
+    position: relative;
+}
+
+.wraper .left-info ul li i {
+    font-size: 27px;
+    position: absolute;
+    left:0;
+    text-align: center;
+    width: 34px;
+}
+.wraper .left-info ul li a{
+    text-decoration: none;
+    color: #9a9a9a;
+}
+.wraper .right-form input,
+.wraper .right-form textarea{
+    display: block;
+    border:1px solid #ccc;
+    box-shadow: 0 1px 2px 0 #ddd inset;
+    width: 100%;
+    font-size: 15px;
+    padding-left: 20px;
+    font-family: arial, helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.wraper .right-form input{
+    height: 40px;
+}
+.wraper .right-form textarea{
+    height: 150px;
+    padding-top: 10px;
+}
+.wraper .right-form button{
+    display: block;
+    color: #fff;
+    background-color: #0cb8b6;
+    border: solid 1px #0cb8b6;
+    cursor:pointer;
+    min-width: 135px;
+    padding: 11px 10px;
+    text-align: center;
+    transition:0.3s background-color;
+    margin-top: -10px;
+}
+.wraper .right-form button:hover{
+    background-color: #18ccca;
+}
